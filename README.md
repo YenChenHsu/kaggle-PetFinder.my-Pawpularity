@@ -2,7 +2,7 @@
 This Kaggle project for PetFinder.my, a Malaysian animal welfare platform, aims to use AI to enhance pet photo appeal on their website, thereby increasing adoption rates for stray and shelter animals. The approach involved developing a deep learning solution using Convolutional Neural Networks (CNNs) to predict "pawpularity score" for pets.
 
 # Data Set
-Data Source [https://www.kaggle.com/competitions/petfinder-pawpularity-score/data]
+##### Data Source [https://www.kaggle.com/competitions/petfinder-pawpularity-score/data]
 The data set contains training (9912) and test (6800) image files and CSV files of pets, the CSV contains the metadata of the images: 12 binary variables showing the image features (i.e. whether the pet has eyes/ face/ action.. etc) and 1 Pawpularity score column. Our objective is to predict the Pawpularity score for respective images.
 
 # Technical Document Guide
@@ -15,7 +15,11 @@ This project use Root Mean Square Error (RMSE) score as performance evaluation, 
 # Future Recommendation
 To further optimize the model, we come up with several improvement directions:
 1. The stacking method is worth trying to improve RSME Performance
-2. A better way to use the pre-trained model would be setting trainable = False at the initial stage to fix the good parameters in the pre-trained model and let the hidden layers learn the parameters. 
+2. A better way to use the pre-trained model would be setting trainable = False at the initial stage to fix the good parameters in the pre-trained model and let the hidden layers learn the parameters.
+
+# Link
+Video [https://www.youtube.com/watch?v=dlYdpkSYzHo]
+Kaggle Competition [https://www.kaggle.com/competitions/petfinder-pawpularity-score]
 
 # Contributor
 Guoquan Lin, Otto Gaulke, Yen Chen Hsu, Wei-Chun Chang, Joyce Wu
