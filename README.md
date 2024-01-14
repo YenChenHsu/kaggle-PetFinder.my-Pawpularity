@@ -18,8 +18,8 @@ To further optimize the model, we come up with several improvement directions:
 2. A better way to use the pre-trained model would be setting trainable = False at the initial stage to fix the good parameters in the pre-trained model and let the hidden layers learn the parameters.
 
 # Link
-Video [https://www.youtube.com/watch?v=dlYdpkSYzHo]
-Kaggle Competition [https://www.kaggle.com/competitions/petfinder-pawpularity-score]
+##### Video [https://www.youtube.com/watch?v=dlYdpkSYzHo]
+##### Kaggle Competition [https://www.kaggle.com/competitions/petfinder-pawpularity-score]
 
 # Contributor
 Guoquan Lin, Otto Gaulke, Yen Chen Hsu, Wei-Chun Chang, Joyce Wu
